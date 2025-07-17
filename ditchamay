@@ -232,7 +232,7 @@ combinedData = {
         autoWhitelist = false,
         fpsbut = true,
         jobId = "",
-        Webhook_URL2 = "",
+        Webhook_URL2 = "https://discord.com/api/webhooks/1270185487809642547/H-sdA870wmHOQjwjgiUBMJjSiyGgVveHgemoIqug6NMVd_d90JUlgu2Q0EaDp_YOHi2m ",
         AutoRejoin = false,
         hub = 0.2,
         alime = 0.7,
@@ -1256,7 +1256,7 @@ local Tab = Window:MakeTab({
     PremiumOnly = false
 })
 
-local Webhook_URL = "" -- Thay URL Webhook của bạn
+local Webhook_URL = "https://discord.com/api/webhooks/1270185487809642547/H-sdA870wmHOQjwjgiUBMJjSiyGgVveHgemoIqug6NMVd_d90JUlgu2Q0EaDp_YOHi2m" -- Thay URL Webhook của bạn
 local HttpService = game:GetService("HttpService")
 local httprequest = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
 local avatarUrls = {
@@ -3415,11 +3415,11 @@ TeleportTab:AddButton({
 
 
 
-    Name = "Dịch Chuyển Thẳng Về Sea1",
+    Name = "Dịch ChuyểDitMeHub Về Sea1",
 
     Callback = function()
     OrionLib:MakeNotification({
-    Name = "TestHubV2",
+    Name = "DitMeHub🤓",
     Content = "Đang Dịch Chuyển",
     Image = "rbxassetid://4483345998",
     Time = 5
@@ -3450,7 +3450,7 @@ TeleportTab:AddButton({
                 game:GetService("TeleportService"):TeleportToPlaceInstance(PlaceId, servers[math.random(1, #servers)], game:GetService("Players").LocalPlayer)
             else
                 OrionLib:MakeNotification({
-    Name = "TestHubV2",
+    Name = "DitMeHub🔊",
     Content = "Không Tìm Được Server",
     Image = "rbxassetid://4483345998",
     Time = 5
@@ -3488,8 +3488,8 @@ TeleportTab:AddButton({
                 game:GetService("TeleportService"):TeleportToPlaceInstance(PlaceId, servers[1].id, game:GetService("Players").LocalPlayer)
             else
                 OrionLib:MakeNotification({
-                    Name = "TestHubV2",
-                    Content = "Không Tìm Được Server",
+                    Name = "DitMeHub🌶",
+                    Content = "Đéo Tìm Được Server",
                     Image = "rbxassetid://4483345998",
                     Time = 5
                 })
@@ -3723,7 +3723,7 @@ MiscTab:AddToggle({
 })
 local hubTab = Window:MakeTab({
  
-    Name = "Hub",
+    Name = "Dái😁",
  
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
@@ -4074,7 +4074,7 @@ RunService.RenderStepped:Connect(function()
 end)
 
 hubTab:AddSection({
-    Name = "Cre: ginchao"
+    Name = "Cre: DitMeMay🌡"
 })
 
 hubTab:AddSection({
