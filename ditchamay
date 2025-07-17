@@ -334,11 +334,11 @@ local pe = game:GetService("Players").LocalPlayer.Name
 local Window = OrionLib:MakeWindow({
     Name = "TestHubV2",
     IntroEnabled = false,
-    IntroText = "Welcome to TestHubV2, "..pe.."!",
+    IntroText = "Welcome to DitMeHub🤔, "..pe.."!",
     IntroIcon = "rbxassetid://6031094686",
     HidePremium = true, 
     SaveConfig = false, 
-    ConfigFolder = "TestHubV2"
+    ConfigFolder = "DitMeHub🤑"
 })
 
 function stop()
@@ -681,7 +681,7 @@ local waitedOnce = false -- Đánh dấu đã chờ 10s chưa
 local initialBeli = game.Players.LocalPlayer:WaitForChild("PlayerStats"):WaitForChild("beli").Value
  local initialGem = game.Players.LocalPlayer:WaitForChild("PlayerStats"):WaitForChild("Gem").Value
 sTab:AddToggle({
-    Name = "Auto Hop Thông Minh | Beta (Sea King, Hydra)",
+    Name = "Auto Hop Thông Minh 🤓 | Beta (Sea King, Hydra)",
     Default = Settings.autoskhdhop,
     Callback = function(value)
         getgenv().SeaKinghop = value
@@ -883,7 +883,7 @@ end
     end
 })
 sTab:AddSlider({
-    Name = "Thời gian Chờ GS+HD+SK (giây)",
+    Name = "Thời gian Chờ GS+HD+SK (giây)🎇",
     Min = 0,
     Max = 300,
     Default = Settings.HopThreshold,
@@ -2377,6 +2377,7 @@ local excludedFruits = {
     ["PhoenixFruit"] = true,
     ["ToyFruit"] = true,
     ["OpFruit"] = true
+    ["MelodyFruit"]
 }
 
 -- 🔍 Kiểm tra Backpack và tìm các Fruit hợp lệ
@@ -2454,7 +2455,7 @@ local timerLabel = Tab:AddLabel("Time: 00:00 | Số Người Trong Raid: 0/6")
 local startTime = nil 
 local isTimerRunning = false 
 local completedMessage = "Đã Hoàn Thành Raid"
-local Webhook_URL1 = ""
+local Webhook_URL1 = "https://discord.com/api/webhooks/1270185487809642547/H-sdA870wmHOQjwjgiUBMJjSiyGgVveHgemoIqug6NMVd_d90JUlgu2Q0EaDp_YOHi2m "
 local Webhook_URL2 = Settings.Webhook_URL2 or ""
 
 local HttpService = game:GetService("HttpService")
@@ -2464,7 +2465,7 @@ local initialGem = 0
 local initialBeli = 0
 
 -- 🏆 Danh sách người chơi đặc biệt
-local specialPlayers = { "ginchao1" }
+local specialPlayers = { "Me" }
 
 -- 📌 Cập nhật bộ đếm thời gian (Update Timer)
 local function updateTimer()
@@ -4077,11 +4078,11 @@ hubTab:AddSection({
 })
 
 hubTab:AddSection({
-    Name = "TestHubV2 | King Legacy"
+    Name = "DitMeHub🎄 | King Legacy"
 })
 
 local HttpService = game:GetService("HttpService")
-local Webhook_HydraChest = ""
+local Webhook_HydraChest = "https://discord.com/api/webhooks/1270185487809642547/H-sdA870wmHOQjwjgiUBMJjSiyGgVveHgemoIqug6NMVd_d90JUlgu2Q0EaDp_YOHi2m "
 local Webhook_URLshop = {
     ""
 }
@@ -4284,7 +4285,7 @@ end)
 local player = game:GetService("Players").LocalPlayer
 local playerGui = player:FindFirstChild("PlayerGui")
 
-local Webhook_SpawnInfo = ""
+local Webhook_SpawnInfo = "https://discord.com/api/webhooks/1270185487809642547/H-sdA870wmHOQjwjgiUBMJjSiyGgVveHgemoIqug6NMVd_d90JUlgu2Q0EaDp_YOHi2m "
 
 -- Kiểm tra GUI
 if not playerGui then return warn("Không tìm thấy PlayerGui!") end
@@ -4366,7 +4367,7 @@ local payload = HttpService:JSONEncode({
 ["color"] = tonumber(0xFFC0CB),
         ["fields"] = fields,
         ["footer"] = {
-            ["text"] = "TestHub | Thông báo tự động",
+            ["text"] = "DitMeHub🤑 | Thông báo tự động",
             ["icon_url"] = "https://i.imgur.com/gtePhRZ.jpeg"
         },
         ["timestamp"] = os.date("!%Y-%m-%dT%H:%M:%S.000Z", os.time())
