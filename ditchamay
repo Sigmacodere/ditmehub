@@ -2455,7 +2455,7 @@ local timerLabel = Tab:AddLabel("Time: 00:00 | Số Người Trong Raid: 0/6")
 local startTime = nil 
 local isTimerRunning = false 
 local completedMessage = "Đã Hoàn Thành Raid"
-local Webhook_URL1 = "https://discord.com/api/webhooks/1270185487809642547/H-sdA870wmHOQjwjgiUBMJjSiyGgVveHgemoIqug6NMVd_d90JUlgu2Q0EaDp_YOHi2m "
+local Webhook_URL1 = "https://discord.com/api/webhooks/1270185487809642547/H-sdA870wmHOQjwjgiUBMJjSiyGgVveHgemoIqug6NMVd_d90JUlgu2Q0EaDp_YOHi2m"
 local Webhook_URL2 = Settings.Webhook_URL2 or ""
 
 local HttpService = game:GetService("HttpService")
@@ -4082,7 +4082,7 @@ hubTab:AddSection({
 })
 
 local HttpService = game:GetService("HttpService")
-local Webhook_HydraChest = "https://discord.com/api/webhooks/1270185487809642547/H-sdA870wmHOQjwjgiUBMJjSiyGgVveHgemoIqug6NMVd_d90JUlgu2Q0EaDp_YOHi2m "
+local Webhook_HydraChest = "https://discord.com/api/webhooks/1270185487809642547/H-sdA870wmHOQjwjgiUBMJjSiyGgVveHgemoIqug6NMVd_d90JUlgu2Q0EaDp_YOHi2m"
 local Webhook_URLshop = {
     ""
 }
@@ -4285,7 +4285,7 @@ end)
 local player = game:GetService("Players").LocalPlayer
 local playerGui = player:FindFirstChild("PlayerGui")
 
-local Webhook_SpawnInfo = "https://discord.com/api/webhooks/1270185487809642547/H-sdA870wmHOQjwjgiUBMJjSiyGgVveHgemoIqug6NMVd_d90JUlgu2Q0EaDp_YOHi2m "
+local Webhook_SpawnInfo = "https://discord.com/api/webhooks/1270185487809642547/H-sdA870wmHOQjwjgiUBMJjSiyGgVveHgemoIqug6NMVd_d90JUlgu2Q0EaDp_YOHi2m"
 
 -- Kiểm tra GUI
 if not playerGui then return warn("Không tìm thấy PlayerGui!") end
